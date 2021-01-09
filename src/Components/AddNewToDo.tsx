@@ -10,7 +10,8 @@ const AddNewToDo : React.FC<AddNewToDoProps> = () => {
     const [inputValue, getInputValue]=useState('');
     const handleSubmit=(e:any)=>{
         e.preventDefault();
-        addTodo(inputValue)
+        addTodo(inputValue);
+        getInputValue('')
     }
     return ( 
     <React.Fragment>
