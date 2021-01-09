@@ -1,6 +1,6 @@
 {
-  "name": "react-type",
-  "version": "0.1.0",
+  "name": "simpletodoapp",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
